@@ -1,0 +1,51 @@
+/* Reset some default styles for consistency across browsers */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style the main sections */
+section {
+    text-align: center;
+    padding: 2em;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.6;
+}
