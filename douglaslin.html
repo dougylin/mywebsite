@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douglas Lin</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        window.onload = function(){
+            var greetings = ['Hi', 'Hello', 'Hey'];
+            var idx = Math.floor(Math.random() * greetings.length);
+            document.getElementById('greeting').innerHTML += `${greetings[idx]}!`;
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="text animate">
+            <h1>
+                <span id="greeting"></span> I&rsquo;m Douglas Lin.
+            </h1>
+
+            <p>
+                Just here trying to figure it out.
+            </p>
+            <p>
+                Interested in regulation, compliance, & cybersecurity technology because something tells me there'll 
+                be more and not less regulation in the future. Studying for the CPA.
+            </p>
+            <p>
+                
+            </p>
+            <p>
+                Xp: 
+                <ul>
+                    <li>current risk intern @amazon</li>
+                    <li>liquidity, credit, model risk intern @jpmchase</li>
+                    <li>hardware vc analyst @mosaic venture lab</li>
+                    <li>frontend and pm @clips.ai</li>
+                    <li>soc it auditor @armanino</li>
+                </ul>
+            </p>
+            
+            <p>
+                More stuff <a href="https://google.com" target="_blank">here</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- Adjust script URL -->
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-WZE41GSRYR" async></script>
+    <script>
+        // Adjusted gtag script
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WZE41GSRYR');
+    </script>
+</body>
+</html>
