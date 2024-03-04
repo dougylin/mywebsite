@@ -34,9 +34,9 @@ a:hover {
 }
 
 div.animate {
-    -moz-animation-delay: 0.3s;
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
+    -moz-animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
     -moz-animation-duration: 1.2s;
     -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
