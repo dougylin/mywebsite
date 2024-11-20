@@ -1,11 +1,14 @@
 html, body {
     margin: 0 auto;
+    padding: 0;
     background-color: #fcfcfc;
     color: #2a2a2a;
     font-family: "Libre Franklin";
     font-size: 13pt;
     font-weight: 400;
     line-height: 1.5;
+    transform: scale(0.9); /* Scale the entire content */
+    transform-origin: center top; /* Anchor scaling to the top-center */
 }
 
 html, body, .container {
@@ -26,6 +29,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 90%; /* Adjust width to make it more compact */
 }
 
 .container div {
@@ -65,7 +70,7 @@ div.animate {
         opacity: 1;
     }
 }
- 
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 800px)
@@ -75,10 +80,3 @@ div.animate {
         font-size: 24pt;
     }
 }
-
-
-.text.animate {
-   /* overflow-y: scroll; /* This will make the content scrollable vertically */
-    max-height: 100%; /* You can set a maximum height for the content to prevent it from expanding infinitely */
-}
-
