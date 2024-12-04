@@ -79,6 +79,6 @@ div.animate {
 
 .text.animate {
    /* overflow-y: scroll; /* This will make the content scrollable vertically */
-    max-height: 100%; /* You can set a maximum height for the content to prevent it from expanding infinitely */
+    max-height: 120%; /* You can set a maximum height for the content to prevent it from expanding infinitely */
 }
 
